@@ -1,1 +1,3 @@
-# bulkMail
+Pop ve imap posta kutuları genelde tüm programlarda standart olarak geliyor. Fakat bazen programların varsayılanlarında Exchange Sunucu için mail gönderme seçeneği bulunmuyor. Bunun için basit bir C# konsol uygulaması ile mailleri yollamak için bir script hazırladım.
+
+Benim senaryom şu şekilde gerçekleşti aslında göndermek istediğim raporları farklı bir program içinden klasöre kişinin mail adresi ile beraber kaydediyorum(Bu kısmı robot yapıyor). Daha sonra da C# ile o klasördeki uzantısını belirlediğim dosyaları tek tek maile ekleyip, dosyanın isimi zaten mail adresi olduğu için o mail adresine gönderiyorum. 
